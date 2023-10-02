@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+            /* background: #F8F8FB; */
+        }
+        .main{
+            width: 80%;
+            /* border: 1px solid black; */
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, calc(95%/3));
+            box-sizing: border-box;
+            justify-content: space-between;
+            gap: 50px 20px;
+            padding: 20px 0;
+        }
+        .box{
+            display: grid;
+            /* border: 1px solid black; */
+            grid-template-areas: "title  title price"
+            "info info info";
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px 1px#ddcebb;
+        }
+        .title{
+            grid-area: title;
+        }
+        .price{
+            grid-area: price;
+            text-align: right;
+            color: #B58834;
+        }
+        .info{
+            grid-area: info;
+            color: gray;
+            font-size: 15px;
+            font-weight: 300;
+            padding-top: 10px;
+        }
+
+        @media  screen and (max-width: 786px) {
+            .main{
+            width: 80%;
+            /* border: 1px solid black; */
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, calc(95%/2));
+            box-sizing: border-box;
+            justify-content: space-between;
+            gap: 50px 20px;
+            padding: 20px 0;
+        }
+        
+        }
+        @media  screen and (max-width: 480px) {
+            .main{
+            width: 90%;
+            /* border: 1px solid black; */
+            margin: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            box-sizing: border-box;
+            justify-content: space-between;
+            /* gap: 50px 20px; */
+            padding: 20px 0;
+        }
+        
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          hic repudiandae excepturi eius to.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          illo.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.turi eius totam ver veritatis odio.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          hic repudiandae excepturi eius to.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          illo.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.turi eius totam ver veritatis odio.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          hic repudiandae excepturi eius to.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          illo.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.turi eius totam ver veritatis odio.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          hic repudiandae excepturi eius to.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
+          illo.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3 class="title">Espresso</h3>
+        <h3 class="price">$49</h3>
+        <p class="info">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.turi eius totam ver veritatis odio.
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
